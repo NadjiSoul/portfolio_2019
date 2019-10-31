@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	width: 100%;
+}
+
+nav{
+	background-color: #000;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav img{
+	margin: auto 0;
+	width: 4vw;
+	height: 8vh;
+}
+
+nav ul{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav li{
+	padding: 25px;	
+	color: white;
+}
+
+nav .welcome{
+	background-color: red;
+}
+
+.bloc{
+	width: 98%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.bloc div{
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	display: flex;
+	width: 30%;
+}
+.bloc img{
+	width: 15vw;
+}
+.bloc form input{
+	width: 98%;
+
+	margin: 2% auto;
+}
+button, input[name=update], input[name=delete]{
+	border: 1px solid #FFF;
+	border-radius: 4px;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	opacity: 0.5;
+}
+button:hover, input[name=update]:hover, input[name=delete]:hover{
+	opacity: 1;
+}
+button{
+	background-color: orange;
+}
+input[name=update]{
+	background-color: blue;
+}
+input[name=delete]{
+	background-color: red;
+}
+
+input[type=file]{
+    font-size:10px;
+    font-style: italic;
+}

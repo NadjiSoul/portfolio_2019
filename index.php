@@ -1,0 +1,233 @@
+<?php require_once('./includes/connect.php'); ?>
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio :: NSoulaimana</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<header>
+			<div class="opacity"></div>
+			<div id="title">
+				<a href=""><img src="./img/website/logo.png"></a>
+				<h1>NADJI SOULAIMANA</h1>
+				<h2>< CA DEPEND :3 /></h2>
+			</div>
+		</header>
+		<div class="opp">
+			<div class="opp_"></div>
+		</div>
+			<div class="navbar">
+				<div class="toggle_btn">
+					<span></span>
+				</div>
+				<a href=""><h2>FHU</h2></a>
+			</div>
+			<nav class="twonav">
+				<a href=""><img class="nav_logo" src="./img/website/logo.png"></a>
+				<ul>
+					<a class="option_a" href="#pres"><li>PRESENTATION</li></a>
+					<a class="option_b" href="#techno"><li>TECHNOS</li></a>
+					<a class="option_c" href="#project"><li>PROJET</li></a>
+					<a class="option_d" href="#contact_res"><li>CONTACT</li></a>
+				</ul>
+				<div>
+					<a href=""><img src="./img/website/logo.png"></a>
+					<h4>© COPYRIGHT 2019</h4>
+				</div>
+			</nav>
+		<!-- PRESENTATION -->
+		<section id="pres">
+			<article class="verse">
+				<div>
+					<div>	
+						<p>
+							Je m'appelle Soulaimana Nadji, j'ai 22 ans et originaire de l'Île de la Réunion.
+						</p>
+						<p>
+							Ayant toujours été attiré par l'informatique, je suis actuellement en réorientation professionnelle et c'est donc tout naturellement que je me suis tourné vers le developpement web.
+							Ainsi, je me forme actuellement et recherche un stage pour valider mon titre professionnel de niveau BAC+2 reconnu par la RNCP.
+						</p>
+					</div>
+					<a class="button_" target="_blank" href="./files/cv_nsoulaimana.pdf">Telecharger mon CV</a>
+				</div>
+				<img src="./img/website/snap.jpg">
+			</article>
+			<article class="reverse">
+				<div>
+					<h2>SIMPLON</h2>
+					<h3>Qu'est-ce que Simplon ?</h3>
+					<p>
+						Simplon.co, créé en 2013, est un réseau de fabriques solidaires et inclusives qui propose des formations gratuites aux métiers du numérique. Implantés un peu partout en France et à l’étranger, nous aimons révéler les talents éloignés de l’emploi ou issus de territoires en difficulté avec un objectif de parité hommes-femmes.
+					</p>
+
+					<h3> Formation Dev Web : Une journée type ?</h3>
+					<p>
+						La journée commence généralement par une veille informatique.
+						Puis, continue sur de la théorie
+						L'après-midi, on se focalise généralement sur des projets.
+					</p>
+				</div>
+				<a target="_blank" href="https://simplon.co/"><img src="./img/website/simplon.png"></a>
+		</section>
+		<!-- LES TECHNOS -->
+		<section id="techno">
+			<article>
+				<div class="tec">
+					<div>
+						<img title="HTML" alt="LOGO HTML" src="./img/techno/html.png">
+						<div class="back_"><span>90%</span>
+							<div class="back html"></div>
+						</div>
+					</div>
+					<div>
+						<img title="CSS" alt="LOGO CSS" src="./img/techno/css.png">
+						<div class="back_"><span>70%</span>
+							<div class="back css"></div>
+						</div>
+					</div>
+					<div>
+						<img title="JS" alt="LOGO JS" src="./img/techno/js.png">
+						<div class="back_"><span>20%</span>
+							<div class="back js"></div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="tec">
+					<div>
+						<img title="PHP" alt="LOGO PHP" src="./img/techno/php.png">
+						<div class="back_"><span>60%</span>
+							<div class="back php"></div>
+						</div>
+					</div>
+					<div>
+						<img title="SQL" alt="LOGO SQL" src="./img/techno/sql.png">
+						<div class="back_"><span>60%</span>
+							<div class="back sql"></div>
+						</div>
+					</div>
+					<div>
+						<img title="WORDPRESS" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png">
+						<div class="back_"><span>50%</span>
+							<div class="back wp"></div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<div class="opquast">
+				<img src="./img/techno/opquast.png">
+				<div>
+					<p>Des bonnes pratiques utilisées par la communauté des meilleurs professionnels du secteur</p>
+					<p>Une certification de compétences officielle, reconnue à l’inventaire national des certifications professionnelle et déjà suivie par des milliers de certifiés</p>
+					<p>Un écosystème d’agences, d’écoles, de centres de formation et d’entreprises qui appliquent les bonnes pratiques et améliorent le Web.</p>
+				</div>
+			</div>
+		</section>
+		<!-- CREATION -->
+		<section id="project">
+			<article>
+<!-- 				<div>
+					<h2>Pourquoi la réalisation du projet au cours de la formation ?</h2>
+					<p>La réalisation de projet nous permet non seulement de gagner en compétence mais aussi en expérience.</p>
+					<p>En effet, les projets réalisés traitent sur des problématiques types afin de pouvoir recréer le journée type d'un développeur confirmé.</p>
+					<p>Au cours de l'année, nous avons réalisé de multitudes projets traitant différents aspects, technos d'un developpeur web : HTML,CSS,PHP, JS, SQL, WORDPRESS, etc...</p>
+				</div>
+				<img src="./img/website/img.png"> -->
+					<?php
+
+						$sql = "SELECT * FROM project";
+						$select = mysqli_query($cnx, $sql);
+						
+						while($s = mysqli_fetch_assoc($select)){
+					?>
+					<div>
+						<div>
+						<a target="_blank" href="./files/<?php echo $s['ddl']; ?>">
+								<img title="" alt="Logo de projet : <?php echo $s['description'];?>" src="./img/project/<?php echo $s['url']; ?>">
+						</a>
+						</div>
+						<p><?php echo $s['description']; ?></p>
+					</div>
+					<?php
+						}
+					?>
+			</article>
+
+		</section>
+		<!-- CONTACT + RESEAUX SOCIAUX -->
+		<section id="contact_res">
+			<div class="res_contact">
+				<!-- CONTACT -->
+			<!-- 	<div id="contact">
+					<h2>CONTACT</h2>
+					<form method="POST" action="mail.php">
+					<input type="text" name="firstname" placeholder="Prenom">
+					<input type="text" name="lastname" placeholder="Nom">
+					<input type="text" name="email" placeholder="Mail : example@gmail.com">
+					<input type="text" name="tel" placeholder="Telephone">
+					<textarea name="comment" rows="8" placeholder="Ecrivez votre commentaire..."></textarea>
+					<input type="submit" name="submit" value="Envoyer">
+				</form> -->
+				<!-- Substitut Contact -->
+					<div class="res_cont">
+						<img src="./img/website/tof.png">
+						<div>
+							<h3>CONTACT</h3>
+							<a alt="nadji.soulaimana@gmail.com" href="mailto:nadji.soulaimana@gmail.com"><img src="./img/website/gmail.png"></a>
+							<a alt="07.66.13.29.28" href="tel:+33766132928"><img src="./img/website/phone.png"></a>
+						</div>
+					</div>
+				<!-- RESEAUX SOCIAUX -->
+				<div id="network">
+					<h2>ME REJOINDRE</h2>
+					<div>
+						<figure>
+							<a target="_blank" href="https://www.linkedin.com/in/nadji-soulaimana-362b6a18a/"><img src="./img/social_network/linkedin.png"></a>
+							<a target="_blank" href="https://www.linkedin.com/in/nadji-soulaimana-362b6a18a/"><figcaption>LinkedIn</figcaption></a>
+						</figure>
+						<figure>
+							<a target="_blank" href="https://www.facebook.com/profile.php?id=100019787359421"><img src="./img/social_network/facebook.png"></a>
+							<a target="_blank" href="https://www.facebook.com/profile.php?id=100019787359421"><figcaption>Facebook</figcaption></a>
+						</figure>
+						<figure>
+							<a target="_blank" href=""><img src="./img/social_network/github.png"></a>					
+							<a target="_blank" href=""><figcaption>Github</figcaption></a>
+						</figure>
+						<figure>
+							<a target="_blank" href=""><img src="./img/social_network/twitter.png"></a>						
+							<a target="_blank" href=""><figcaption>Twitter</figcaption></a>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+<!-- 	<footer>
+		<h2>ME RETROUVER SUR :</h2>
+		<div>
+			<figure>
+				<a href="https://www.linkedin.com/in/nadji-soulaimana-362b6a18a/"><img src="./img/social_network/linkedin.png"></a>
+				<a href="https://www.linkedin.com/in/nadji-soulaimana-362b6a18a/"><figcaption>LinkedIn</figcaption></a>
+			</figure>
+			<figure>
+				<a href="https://www.facebook.com/profile.php?id=100019787359421"><img src="./img/social_network/facebook.png"></a>
+				<a href="https://www.facebook.com/profile.php?id=100019787359421"><figcaption>Facebook</figcaption></a>
+			</figure>
+			<figure>
+				<a href=""><img src="./img/social_network/github.png"></a>					
+				<a href=""><figcaption>Github</figcaption></a>
+			</figure>
+			<figure>
+				<a href=""><img src="./img/social_network/twitter.png"></a>						
+				<a href=""><figcaption>Twitter</figcaption></a>
+			</figure>
+		</div>
+	</footer> -->
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

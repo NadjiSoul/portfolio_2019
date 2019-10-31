@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title> Kazan v1</title>
+</head>
+<body>
+	<h1> - ChatBot - </h1>
+<section>
+	<h2> Robot Kazan à votre service, jeune pousse ! </h2>
+	
+		<div id="msg"></div>
+		<form>
+			<input type="text" id="txt" onkeypress="refuserToucheEntree(event);"  autocomplete="off">  <!--  onkeydown="if(event.keyCode == 13){ getAnswer()}" -->
+			<input type="button" onclick="getAnswer()" value="Envoyer">
+		</form>
+</section>
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

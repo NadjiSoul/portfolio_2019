@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pregunta, .respuesta{
+    padding: 2%;
+    width: 15%;
+}
+.pregunta{
+    border-radius: 4px;
+    background-color: #FF1493;
+    color: white;
+    margin-left: 5%;
+}
+
+.respuesta{
+    border-radius: 4px;
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: 5%; 
+}
+
+body{
+    width: 50%;
+    margin:auto;
+}
+h1,h2{ text-align: center; 
+}
+h1{ 
+    margin-top: 5%;
+    font-size: 'Playfair Display';
+    background-color: darkgray;
+    border-radius: 4px;
+    padding: 0.5%;
+}
+h2{ 
+    font-family: 'Lato';
+
+}
+section{
+    background-image: url('https://i.pinimg.com/564x/8a/7f/c9/8a7fc99f1993809e54a5c8a08f45c1dd.jpg');    
+    background-size: cover;
+    border-radius: 4px;
+    height: 80vh;
+}
+#msg{
+    margin-top: 2.5%;
+    height: 80%;
+    overflow-y: auto;
+}
+form{
+    width: 70%;
+    margin: auto;
+}
+
+input[type=text]{
+    width: 320px;
+    margin: 1% auto;
+    padding: 12px 15px;
+}
+
+input[type=button]{
+    width: 100px;
+    background-color: #FF1493;
+    margin:auto;
+    padding: 12px 15px;
+    color: white;
+    border-radius: 4px;
+    border:none;
+}
+    input[type=button]:hover{
+        opacity: 0.5;
+        cursor: pointer;
+    }
