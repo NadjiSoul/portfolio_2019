@@ -86,7 +86,8 @@ nav{
 		color: white;
 	}
 		nav ul li:hover{
-		background-color: #E70739;
+		background-color: #FFF;
+		color: #000	;
 	}
 
 	.nav_logo{
@@ -130,20 +131,34 @@ section{
 		display: flex;
 		height: 50vh;
 	}
+	#pres .verse_{
+		display: flex;
+		flex-direction: column;
+	}
+		#pres .verse div{
+			padding: 20px;
+		}
+
+		#pres .verse_ a{
+			width: 150px;
+			margin: auto;
+			text-align: center;
+			border: 2px solid white;
+			border-radius: 4px;
+			color: #FFF;
+			padding: 10px;
+		}
+			#pres .verse_ a:hover{
+				background-color: #FFF;
+				color: #000;
+			}
 	#pres .reverse div{
 		width: 65%;
 	}
 	#pres .reverse{
 		display: flex;
 		flex-direction: row-reverse;
-		background-color: #C82605;
-	}
-	#pres .verse div a{
-		border: 2px solid white;
-		border-radius: 4px;
-		color: #FFF;
-		margin-left: 250px;
-		padding: 10px;
+		background-color: #F74549;
 	}
 	#pres .verse img{
 		width: 40%;
@@ -154,8 +169,8 @@ section{
 		margin-left: -22%;
 		border-left: none;
 	}
-	#pres .reverse div{
-		padding: 2vw;
+	#pres .reverse div, #pres .reverse div p{
+		padding: 10px 10px 10px 0;
 	}
 	#pres .reverse h2{
 		width: 300px;
@@ -176,12 +191,13 @@ section{
 	#techno article{
 		display: flex;
 		text-align: center;
+		flex-wrap: wrap;
 	}
 	#techno img{
 		width: 20%;
 	}
 	#techno .tec{
-		width: 50%;
+		width: 33%;
 	}
 	#techno .back_{
 		margin: auto;
@@ -470,10 +486,8 @@ section{
 	#pres .verse img,#pres .reverse img{
 		display: none;
 	}
-	#techno article{
-		flex-direction: column;
-	}
 	#techno .tec{
+		width: 50%;
 		margin: auto;
 	}
 	#techno .back_{

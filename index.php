@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Portfolio :: NSoulaimana</title>
+	<link rel="icon" type="image/png" href="./img/website/logo.png" />
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700&display=swap" rel="stylesheet">
 </head>
@@ -12,7 +13,7 @@
 		<header>
 			<div class="opacity"></div>
 			<div id="title">
-				<a href=""><img src="./img/website/logo.png"></a>
+				<a href="#"><img src="./img/website/logo.png"></a>
 				<h1>NADJI SOULAIMANA</h1>
 				<h2>< CA DEPEND :3 /></h2>
 			</div>
@@ -24,10 +25,10 @@
 				<div class="toggle_btn">
 					<span></span>
 				</div>
-				<a href=""><h2>FHU</h2></a>
+				<a href="#"><h2>FHU</h2></a>
 			</div>
 			<nav class="twonav">
-				<a href=""><img class="nav_logo" src="./img/website/logo.png"></a>
+				<a href="#"><img class="nav_logo" src="./img/website/logo.png"></a>
 				<ul>
 					<a class="option_a" href="#pres"><li>PRESENTATION</li></a>
 					<a class="option_b" href="#techno"><li>TECHNOS</li></a>
@@ -42,7 +43,7 @@
 		<!-- PRESENTATION -->
 		<section id="pres">
 			<article class="verse">
-				<div>
+				<div class="verse_">
 					<div>	
 						<p>
 							Je m'appelle Soulaimana Nadji, j'ai 22 ans et originaire de l'Île de la Réunion.
@@ -89,14 +90,7 @@
 							<div class="back css"></div>
 						</div>
 					</div>
-					<div>
-						<img title="JS" alt="LOGO JS" src="./img/techno/js.png">
-						<div class="back_"><span>20%</span>
-							<div class="back js"></div>
-						</div>
-					</div>
 				</div>
-
 
 				<div class="tec">
 					<div>
@@ -105,6 +99,28 @@
 							<div class="back php"></div>
 						</div>
 					</div>
+					<div>
+						<img title="JS" alt="LOGO JS" src="./img/techno/js.png">
+						<div class="back_"><span>20%</span>
+							<div class="back js"></div>
+						</div>
+					</div>
+				</div>
+				<div class="tec">
+					<div>
+						<img title="WORDPRESS" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png">
+						<div class="back_"><span>50%</span>
+							<div class="back wp"></div>
+						</div>
+					</div>
+					<div>
+						<img title="SYMFONY" alt="LOGO SYMFONY" src="./img/techno/php.png">
+						<div class="back_"><span>10%</span>
+							<div class="back php"></div>
+						</div>
+					</div>
+				</div>
+				<div class="tec">
 					<div>
 						<img title="SQL" alt="LOGO SQL" src="./img/techno/sql.png">
 						<div class="back_"><span>60%</span>
@@ -162,17 +178,6 @@
 		<!-- CONTACT + RESEAUX SOCIAUX -->
 		<section id="contact_res">
 			<div class="res_contact">
-				<!-- CONTACT -->
-			<!-- 	<div id="contact">
-					<h2>CONTACT</h2>
-					<form method="POST" action="mail.php">
-					<input type="text" name="firstname" placeholder="Prenom">
-					<input type="text" name="lastname" placeholder="Nom">
-					<input type="text" name="email" placeholder="Mail : example@gmail.com">
-					<input type="text" name="tel" placeholder="Telephone">
-					<textarea name="comment" rows="8" placeholder="Ecrivez votre commentaire..."></textarea>
-					<input type="submit" name="submit" value="Envoyer">
-				</form> -->
 				<!-- Substitut Contact -->
 					<div class="res_cont">
 						<img src="./img/website/tof.png">
@@ -207,27 +212,6 @@
 			</div>
 		</section>
 	</main>
-<!-- 	<footer>
-		<h2>ME RETROUVER SUR :</h2>
-		<div>
-			<figure>
-				<a href="https://www.linkedin.com/in/nadji-soulaimana-362b6a18a/"><img src="./img/social_network/linkedin.png"></a>
-				<a href="https://www.linkedin.com/in/nadji-soulaimana-362b6a18a/"><figcaption>LinkedIn</figcaption></a>
-			</figure>
-			<figure>
-				<a href="https://www.facebook.com/profile.php?id=100019787359421"><img src="./img/social_network/facebook.png"></a>
-				<a href="https://www.facebook.com/profile.php?id=100019787359421"><figcaption>Facebook</figcaption></a>
-			</figure>
-			<figure>
-				<a href=""><img src="./img/social_network/github.png"></a>					
-				<a href=""><figcaption>Github</figcaption></a>
-			</figure>
-			<figure>
-				<a href=""><img src="./img/social_network/twitter.png"></a>						
-				<a href=""><figcaption>Twitter</figcaption></a>
-			</figure>
-		</div>
-	</footer> -->
 	<script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
