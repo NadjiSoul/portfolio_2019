@@ -148,13 +148,6 @@
 		<!-- CREATION -->
 		<section id="project">
 			<article>
-<!-- 				<div>
-					<h2>Pourquoi la réalisation du projet au cours de la formation ?</h2>
-					<p>La réalisation de projet nous permet non seulement de gagner en compétence mais aussi en expérience.</p>
-					<p>En effet, les projets réalisés traitent sur des problématiques types afin de pouvoir recréer le journée type d'un développeur confirmé.</p>
-					<p>Au cours de l'année, nous avons réalisé de multitudes projets traitant différents aspects, technos d'un developpeur web : HTML,CSS,PHP, JS, SQL, WORDPRESS, etc...</p>
-				</div>
-				<img src="./img/website/img.png"> -->
 					<?php
 
 						$sql = "SELECT * FROM project";
@@ -162,13 +155,17 @@
 						
 						while($s = mysqli_fetch_assoc($select)){
 					?>
-					<div>
-						<div>
+					<div class="proj">
+						<div class="proj_">
 						<a target="_blank" href="./files/<?php echo $s['ddl']; ?>">
 								<img title="" alt="Logo de projet : <?php echo $s['description'];?>" src="./img/project/<?php echo $s['url']; ?>">
 						</a>
 						</div>
-						<p><?php echo $s['description']; ?></p>
+						<div class="_proj">
+							<h3><?php echo $s['name']; ?></h3>
+							<p><?php echo $s['description']; ?></p>
+						</div>
+						
 					</div>
 					<?php
 						}
