@@ -33,6 +33,7 @@
 					<a class="option_a" href="#pres"><li>PRESENTATION</li></a>
 					<a class="option_b" href="#techno"><li>TECHNOS</li></a>
 					<a class="option_c" href="#project"><li>PROJET</li></a>
+					<a class="option_e" href="#propos"><li>A PROPOS</li></a>
 					<a class="option_d" href="#contact_res"><li>CONTACT</li></a>
 				</ul>
 				<div>
@@ -55,7 +56,7 @@
 					</div>
 					<a class="button_" target="_blank" href="./files/cv_nsoulaimana.pdf">Telecharger mon CV</a>
 				</div>
-				<img src="./img/website/snap.jpg">
+				<img src="./img/website/tech.jpg"> <!-- snap.jpg -->
 			</article>
 			<article class="reverse">
 				<div>
@@ -173,7 +174,22 @@
 						}
 					?>
 			</article>
-
+		</section>
+		<section id="propos">
+			<article>
+				<p>Je m'appelle Soulaimana Nadji, j'ai 22 ans et originaire de l'Île de la Réunion. Ayant toujours été attiré par l'informatique, je suis actuellement en réorientation professionnelle et c'est donc tout naturellement que je me suis tourné vers le developpement web. Ainsi, je me forme actuellement et recherche un stage pour valider mon titre professionnel de niveau BAC+2 reconnu par la RNCP.</p>
+			</article>
+			<article>
+				<h2>PASSIONS</h2>
+				<h3>DESSIN</h3>
+				<div>
+					<img src="./img/website/tof.png">
+					<img src="./img/website/tof.png">
+					<img src="./img/website/tof.png">
+					<img src="./img/website/tof.png">
+					<img src="./img/website/tof.png">
+				</div>
+			</article>
 		</section>
 		<!-- CONTACT + RESEAUX SOCIAUX -->
 		<section id="contact_res">
