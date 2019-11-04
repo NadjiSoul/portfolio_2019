@@ -16,7 +16,6 @@
 			<div id="title">
 				<a href="#"><img src="./img/website/logo.png"></a>
 				<h1>NADJI SOULAIMANA</h1>
-				<h2>< CA DEPEND :3 /></h2>
 			</div>
 		</header>
 		<div class="opp">
@@ -44,6 +43,7 @@
 			</nav>
 		<!-- PRESENTATION -->
 		<section id="pres">
+			<h2 class="h">PRESENTATION</h2>
 			<article class="verse">
 				<div class="verse_">
 					<div>	
@@ -78,6 +78,7 @@
 		</section>
 		<!-- LES TECHNOS -->
 		<section id="techno">
+			<h2 class="h">TECHNO</h2>
 			<article>
 				<div class="tec">
 					<div>
@@ -148,6 +149,7 @@
 		</section>
 		<!-- CREATION -->
 		<section id="project">
+			<h2 class="h">PROJET</h2>
 			<article>
 					<?php
 
@@ -174,6 +176,7 @@
 			</article>
 		</section>
 		<section id="propos">
+			<h2 class="h">A PROPOS</h2>
 			<article>
 				<p>Je m'appelle Soulaimana Nadji, j'ai 22 ans et originaire de l'Île de la Réunion. Ayant toujours été attiré par l'informatique, je suis actuellement en réorientation professionnelle et c'est donc tout naturellement que je me suis tourné vers le developpement web. Ainsi, je me forme actuellement et recherche un stage pour valider mon titre professionnel de niveau BAC+2 reconnu par la RNCP.</p>
 			</article>
