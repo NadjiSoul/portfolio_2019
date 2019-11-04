@@ -499,18 +499,25 @@ section{
 	}
 	#project article div{
 		width: 45%;
-		height: 45%;
 		margin-bottom: 2.5%;
 	}
-	#project article div p{
-		height: 45%;
+	#project article{
+		height: 100vh;
+		flex-direction: row;
 	}
 	#project article .proj{
-		width: 100%;
+		width: 49%;
+		height: 60%;
 	}
 	#project article ._proj{
-		width: 100%;
-		border:2px solid red;
+		width: 85%;
+	}
+	#project{
+		height: 100vh;
+	}
+
+	#propos{
+		margin-top: 25vh;
 	}
 	.res_cont{
 		width: 100%;
