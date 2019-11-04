@@ -42,7 +42,7 @@ require_once('../includes/connect.php');
 					<textarea name="description" rows="15" cols="21"><?php echo $s['description']; ?></textarea>
 					<input type="file" name="url">
 					<input type="text" name="ddl" value="<?php echo $s['ddl']; ?>">
-					<input type="text" name="ddl" value="<?php echo $s['git']; ?>">
+					<input type="text" name="git" value="<?php echo $s['git']; ?>">
 					<input type="submit" name="update" value="Modifier">
 					<input type="submit" name="delete" value="Supprimer">
 				</form>
