@@ -18,6 +18,7 @@
 --
 -- Table structure for table `brand`
 --
+use `nsoulaimana`;
 
 DROP TABLE IF EXISTS `brand`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;

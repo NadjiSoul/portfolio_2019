@@ -44,4 +44,11 @@ option_d.onclick = function(){
 	navbar.classList.toggle('navbar_open');
 }
 
+var option_e = document.querySelector('.option_e');
+option_e.onclick = function(){
+  	btn.classList.toggle('cross');
+	nav.classList.toggle('twonav_open');
+	navbar.classList.toggle('navbar_open');
+}
+
 // }

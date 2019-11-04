@@ -33,8 +33,8 @@
 					<a class="option_a" href="#pres"><li>PRESENTATION</li></a>
 					<a class="option_b" href="#techno"><li>TECHNOS</li></a>
 					<a class="option_c" href="#project"><li>PROJET</li></a>
-					<a class="option_e" href="#propos"><li>A PROPOS</li></a>
-					<a class="option_d" href="#contact_res"><li>CONTACT</li></a>
+					<a class="option_d" href="#propos"><li>A PROPOS</li></a>
+					<a class="option_e" href="#contact_res"><li>CONTACT</li></a>
 				</ul>
 				<div>
 					<a href=""><img src="./img/website/logo.png"></a>
