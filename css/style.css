@@ -214,7 +214,9 @@ section{
 	}
 	#techno .back{
 		padding: 2%;
-		background-color: orange;
+		background-image: repeating-linear-gradient(-45deg, 
+      	transparent 0 1px, 
+      	#F74549 2px 3px);
 	}
 	#techno .html{
 		width: 90%;
@@ -304,7 +306,7 @@ section{
 			font-family: 'Indie Flower', cursive;
 		}
 		#project article ._proj a{
-			color: blue;
+			color: #20B2AA;
 		}
 	/* Section : Contact && Social Network */
 	#propos article div img{
@@ -559,10 +561,8 @@ section{
 		text-align: center;
 	}
 		#network div{
-			margin: auto;
+			margin-left: calc(50% - 100px);
 			width: 85%;
-			display: flex;
-			flex-wrap: wrap;
 		}
 			#network div img{
 				width: 50px;
