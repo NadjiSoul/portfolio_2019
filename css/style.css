@@ -236,7 +236,8 @@ section{
 		font-weight: bold;
 	}
 	.opquast{
-		background-color: #FFF;
+		background-color: rgba(0, 0, 0, 0.4);
+		border-right: 2px solid #FFF;
 		border-radius: 4px;
 		margin: 2% auto;
 		width: 60%;
@@ -249,7 +250,7 @@ section{
 		padding: 1%;
 	}
 	.opquast p{
-		color: #000;
+			font-family: 'Indie Flower', cursive;
 	}
 	/* Section : Project */
 	#project{
@@ -273,7 +274,8 @@ section{
 		margin: 0 auto;
 		border-radius: 5px;
 		border-top: 2px solid #F74549;
-		border-bottom: 2px solid #F74549;
+		border-bottom: 2px solid #F74549;	
+		background-color: rgba(0, 0, 0, 0.4);
 	}
 		#project img{
 			margin-left: 5%;
