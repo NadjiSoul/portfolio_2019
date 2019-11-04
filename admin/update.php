@@ -12,8 +12,9 @@ if(isset($id)){
 	$description = $_POST['description'];
 	$url = $_POST['url'];
 	$ddl = $_POST['ddl'];
+	$git = $_POST['git'];
 	if($id == 0){
-		$sql = "INSERT INTO project SET name = '$name', description = '$description', url = '$url', ddl = '$ddl'";
+		$sql = "INSERT INTO project SET name = '$name', description = '$description', url = '$url', ddl = '$ddl', git = '$git'";
 		$select = mysqli_query($cnx, $sql);
 
 		header('Location: index.php');
@@ -29,7 +30,7 @@ if(isset($id)){
 			$url = $s['url'];
 		}
 
-		$sql = "UPDATE project SET name = '$name', description = '$description', url = '$url', ddl = '$ddl' WHERE id = $id";
+		$sql = "UPDATE project SET name = '$name', description = '$description', url = '$url', ddl = '$ddl', git = '$git' WHERE id = $id";
 		$select = mysqli_query($cnx, $sql);
 
 		header('Location: index.php');
