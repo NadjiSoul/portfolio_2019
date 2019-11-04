@@ -190,7 +190,6 @@
 					<img src="./img/about_me/glav.jpg">
 					<img src="./img/about_me/glav.jpg">
 					<img src="./img/about_me/glav.jpg">
-					<img src="./img/about_me/glav.jpg">
 				</div>
 			</article>
 		</section>
