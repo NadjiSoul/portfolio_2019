@@ -508,6 +508,9 @@ section{
 	#project article .proj{
 		width: 49%;
 	}
+	#project article ._proj{
+		width: 85%;
+	}
 	.res_cont{
 		width: 100%;
 	}
