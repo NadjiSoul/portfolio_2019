@@ -180,11 +180,11 @@
 				<h2>PASSIONS</h2>
 				<h3>DESSIN</h3>
 				<div>
-					<img src="./img/website/tof.png">
-					<img src="./img/website/tof.png">
-					<img src="./img/website/tof.png">
-					<img src="./img/website/tof.png">
-					<img src="./img/website/tof.png">
+					<img src="./img/about_me/glav.jpg">
+					<img src="./img/about_me/glav.jpg">
+					<img src="./img/about_me/glav.jpg">
+					<img src="./img/about_me/glav.jpg">
+					<img src="./img/about_me/glav.jpg">
 				</div>
 			</article>
 		</section>
