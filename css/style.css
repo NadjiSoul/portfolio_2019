@@ -303,6 +303,9 @@ section{
 		#project article ._proj p{
 			font-family: 'Indie Flower', cursive;
 		}
+		#project article ._proj a{
+			color: blue;
+		}
 	/* Section : Contact && Social Network */
 	#propos article div img{
 		width: 20%;
