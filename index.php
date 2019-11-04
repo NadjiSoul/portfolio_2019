@@ -168,7 +168,7 @@
 						</div>
 						<div class="_proj">
 							<h3><?php echo $s['name']; ?></h3>
-							<p><?php echo $s['description']; ?></p>
+							<p><?php echo $s['description']; ?><a href="<?php echo $s['git'];?>"></a></p>
 						</div>
 						
 					</div>
