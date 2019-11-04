@@ -506,10 +506,11 @@ section{
 		height: 45%;
 	}
 	#project article .proj{
-		width: 49%;
+		width: 100%;
 	}
 	#project article ._proj{
-		width: 85%;
+		width: 100%;
+		border:2px solid red;
 	}
 	.res_cont{
 		width: 100%;
