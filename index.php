@@ -7,7 +7,8 @@
 	<title>Portfolio :: NSoulaimana</title>
 	<link rel="icon" type="image/png" href="./img/website/logo.png" />
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Indie+Flower&display=swap&subset=latin-ext" rel="stylesheet">
+
 </head>
 <body>
 	<main>
@@ -16,6 +17,7 @@
 			<div id="title">
 				<a href="#"><img src="./img/website/logo.png"></a>
 				<h1>NADJI SOULAIMANA</h1>
+				<h2>Developpeur Web Junior</h2>
 			</div>
 		</header>
 		<div class="opp">

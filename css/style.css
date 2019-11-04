@@ -6,7 +6,7 @@
 	text-decoration: none;
 	list-style: none;
 	scroll-behavior: smooth;
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Cinzel', serif;
 }
 .h{
 	display: none;
@@ -288,6 +288,9 @@ section{
 		#project article ._proj{
 			padding: 15px;
 			height: 45%;
+		}
+		#project article ._proj p{
+			font-family: 'Indie Flower', cursive;
 		}
 	/* Section : Contact && Social Network */
 	#propos article div img{
