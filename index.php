@@ -169,7 +169,7 @@
 						</div>
 						<div class="_proj">
 							<h3><?php echo $s['name']; ?></h3>
-							<p><?php echo $s['description']; ?><a target="_blank" href="<?php echo $s['git'];?>">Lien Github</a></p>
+							<p><?php echo $s['description']; ?><a target="_blank" href="<?php echo $s['git'];?>">Lien Git</a></p>
 						</div>
 						
 					</div>
