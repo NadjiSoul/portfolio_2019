@@ -45,7 +45,7 @@
 				$msg = 'Une erreur est survenue. Veuillez réessayer ultérieurement.';
 			}
 		}
-		header('Location: index.php/#contact');
+		header('Location: index.php/#contact_res');
 	}  
 	 
 	   // if (mail($to_email, $subject, $body, $headers)) {
