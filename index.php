@@ -252,6 +252,7 @@
 						$msg = 'Une erreur est survenue. Veuillez réessayer ultérieurement.';
 					}
 				}
+				echo $msg;
 			}
 			;?>
 			<form method="POST" action="mail.php">
