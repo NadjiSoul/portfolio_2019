@@ -522,13 +522,13 @@ section{
 	padding-top:40px;
 	margin-left: 0;
 	width: 100%;
-	height: 120vh;
 	}
 	#pres .verse{
 		height: 45%;
 	}
 	#pres .reverse{
-		height: 49%;
+		background-color: 2px solid blue;
+		height: 60%;
 	}
 	#pres article div a{
 		margin: auto;
@@ -539,6 +539,9 @@ section{
 	}
 	#pres .verse img,#pres .reverse img{
 		display: none;
+	}
+	#techno{
+		margin-top: 25%;
 	}
 	#techno .tec{
 		width: 50%;
