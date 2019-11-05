@@ -169,7 +169,7 @@
 						</div>
 						<div class="_proj">
 							<h3><?php echo $s['name']; ?></h3>
-							<p><?php echo $s['description']; ?><a href="<?php echo $s['git'];?>">Lien Github</a></p>
+							<p><?php echo $s['description']; ?><a target="_blank" href="<?php echo $s['git'];?>">Lien Github</a></p>
 						</div>
 						
 					</div>
@@ -187,10 +187,10 @@
 				<h2>PASSIONS</h2>
 				<h3>DESSIN</h3>
 				<div>
-					<img src="./img/about_me/glav.jpg">
-					<img src="./img/about_me/glav.jpg">
-					<img src="./img/about_me/glav.jpg">
-					<img src="./img/about_me/glav.jpg">
+					<a href="./img/about_me/glav.jpg" target="_blank"><img src="./img/about_me/glav.jpg"></a>
+					<a href="./img/about_me/glav.jpg" target="_blank"><img src="./img/about_me/glav.jpg"></a>
+					<a href="./img/about_me/glav.jpg" target="_blank"><img src="./img/about_me/glav.jpg"></a>
+					<a href="./img/about_me/glav.jpg" target="_blank"><img src="./img/about_me/glav.jpg"></a>
 				</div>
 			</article>
 		</section>
