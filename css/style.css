@@ -367,6 +367,7 @@ section{
 		scroll-behavior: auto;
 	}
 		input[type=text], input[type=tel], textarea{
+			padding-left: 10px;
 			width: 70%;
 			font-size: 12pt;
 			color:#000;
@@ -638,7 +639,6 @@ section{
 		font-size: 15pt;
 	}
 	.msg{
-		border:2px solid red;
 		width: 90%;
 	}
 	input[type=text],input[type=tel], textarea{

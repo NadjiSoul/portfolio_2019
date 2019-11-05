@@ -21,11 +21,8 @@
 		else if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
 			$msg .= '<span class="warning">Votre email est considéré comme invalide</span><br/>';
 		}
-		if(empty($_POST['message'])){
-			$msg .= '<span class="warning">Veuillez écrire votre message.</span><br/>';
-		}
-		else if(strlen($_POST['message']) < 20){
-			$msg .= '<span class="warning">Votre message doit comporter au moins 20 caractères.</span><br/>';
+		if(empty($_POST['subject'])){
+			$msg .= '<span class="warning">Veuillez renseigner un objet.</span><br/>';
 		}
 		if(empty($_POST['message'])){
 			$msg .= '<span class="warning">Veuillez écrire votre message.</span><br/>';
@@ -44,7 +41,7 @@
 			$message = $firstname." ".$lastname.": ".$_POST['message'];
 
 			if(mail($to_email, $subject, $message, $header)){
-				$msg = '<span class="notice">Votre message a bien été envoyer</span>';
+				$msg = '<span class="notice">Votre message a bien été envoyé</span>';
 
 			}
 			else{
