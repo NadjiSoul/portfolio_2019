@@ -232,7 +232,7 @@
 			</div>
 		</section>
 		<section>
-			<?php echo $msg; ?>
+			<div style="width: 50%; background-color: 2px solid red"><?php echo $msg; ?></div>
 			<form method="POST">
 				<input type="text" name="firstname" placeholder="Prenom"><br/>
 				<input type="text" name="lastname" placeholder="Nom"><br/>
@@ -241,6 +241,7 @@
 				<textarea name="message" placeholder="Votre message ..."></textarea><br/>
 				<input type="submit" name="submit" value="Envoyer">
 			</form>
+			<div style="width: 50%; background-color: 2px solid red"><?php echo $msg; ?></div>
 		</section>
 	</main>
 	<script type="text/javascript" src="./js/script.js"></script>
