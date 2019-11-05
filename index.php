@@ -235,8 +235,9 @@
 				<input type="text" name="firstname" placeholder="Prenom"><br/>
 				<input type="text" name="lastname" placeholder="Nom"><br/>
 				<input type="text" name="email" placeholder="Email"><br/>
+				<input type="text" name="subject" placeholder="Sujet"><br/>
 				<textarea name="message" placeholder="Votre message ..."></textarea><br/>
-				<input type="submit" name="Envoyer">
+				<input type="submit" name="submit" value="Envoyer">
 			</form>
 		</section>
 	</main>
