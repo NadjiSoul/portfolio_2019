@@ -45,8 +45,8 @@
 				$msg = 'Une erreur est survenue. Veuillez réessayer ultérieurement.';
 			}
 		}
-		header('Location: ./#contact_res');
-	}  
+	}
+	   
 	 
 	   // if (mail($to_email, $subject, $body, $headers)) {
 	   //    echo("Email successfully sent to $to_email...");
