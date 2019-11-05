@@ -3,29 +3,35 @@
 	if(isset($_POST['submit'])){
 		$msg = '';
 		if(empty($_POST['firstname'])){
-			$msg .= '<span class="warning">Veuillez renseigner votre prénom.</span>';
+			$msg .= '<span class="warning">Veuillez renseigner votre prénom.</span><br/>';
 		}
 		else if(strlen($_POST['firstname']) < 2){
-			$msg .= '<span class="warning">Votre prénom doit comporter au moins 2 caractères.</span>';
+			$msg .= '<span class="warning">Votre prénom doit comporter au moins 2 caractères.</span><br/>';
 		}
 
 		if(empty($_POST['lastname'])){
-			$msg .= '<span class="warning">Veuillez renseigner votre nom.</span>';
+			$msg .= '<span class="warning">Veuillez renseigner votre nom.</span><br/>';
 		}
 		else if(strlen($_POST['lastname']) < 2){
-			$msg .= '<span class="warning">Votre nom doit comporter au moins 2 caractères.</span>';
+			$msg .= '<span class="warning">Votre nom doit comporter au moins 2 caractères.</span><br/>';
 		}
 		if(empty($_POST['email'])){
-			$msg .= '<span class="warning">Veuillez renseigner votre adresse mail.</span>';
+			$msg .= '<span class="warning">Veuillez renseigner votre adresse mail.</span><br/>';
 		}
 		else if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
-			$msg .= '<span class="warning">Votre email est considéré comme invalide</span>';
+			$msg .= '<span class="warning">Votre email est considéré comme invalide</span><br/>';
 		}
 		if(empty($_POST['message'])){
-			$msg .= '<span class="warning">Veuillez écrire votre message.</span>';
+			$msg .= '<span class="warning">Veuillez écrire votre message.</span><br/>';
 		}
 		else if(strlen($_POST['message']) < 20){
-			$msg .= '<span class="warning">Votre message doit comporter au moins 20 caractères.</span>';
+			$msg .= '<span class="warning">Votre message doit comporter au moins 20 caractères.</span><br/>';
+		}
+		if(empty($_POST['message'])){
+			$msg .= '<span class="warning">Veuillez écrire votre message.</span><br/>';
+		}
+		else if(strlen($_POST['message']) < 20){
+			$msg .= '<span class="warning">Votre message doit comporter au moins 20 caractères.</span><br/>';
 		}
 		if(empty($msg)){
 			$firstname = $_POST['firstname'];
@@ -46,9 +52,8 @@
 			}
 		}
 
-		echo $msg;
+		
 	}
-	   
 	 
 	   // if (mail($to_email, $subject, $body, $headers)) {
 	   //    echo("Email successfully sent to $to_email...");

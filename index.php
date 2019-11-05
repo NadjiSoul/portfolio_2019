@@ -64,7 +64,7 @@ require_once('./includes/connect.php');
 					</div>
 					<a class="button_" target="_blank" href="./files/cv_nsoulaimana.pdf">Telecharger mon CV</a>
 				</div>
-				<img src="./img/website/tech.jpg"> <!-- snap.jpg -->
+				<img src="./img/website/tof.png"> <!-- snap.jpg -->
 			</article>
 			<article class="reverse">
 				<div>
@@ -204,19 +204,22 @@ require_once('./includes/connect.php');
 			<div class="res_contact">
 				<!-- Substitut Contact -->
 					<div class="res_cont">
-						
+						<h3>CONTACT</h3>
+						<!-- <img src="./img/website/tof.png"> -->
 					<?php require_once('./mail.php'); ?>
+						<div class="msg"><?php if(isset($msg)){ echo $msg;}?></div>
 						<form method="POST">
-							<input type="text" name="firstname" placeholder="Prenom"><br/>
+							<input type="text" name="firstname" placeholder="Prenom..."><br/>
 							<input type="text" name="lastname" placeholder="Nom"><br/>
-							<input type="text" name="email" placeholder="Email"><br/>
+							<input type="text" name="email" placeholder="Email..."><br/>
+							<input type="tel" name="tel" placeholder="Phone...">
 							<input type="text" name="subject" placeholder="Sujet"><br/>
-							<textarea name="message" placeholder="Votre message ..."></textarea><br/>
+							<textarea name="message" placeholder="Votre message..." cols="23" rows="7"></textarea><br/>
 							<input type="submit" name="submit" value="Envoyer">
 						</form>
-<!-- 						<img src="./img/website/tof.png">
+<!-- 						
 						<div>
-							<h3>CONTACT</h3>
+							
 							<a alt="nadji.soulaimana@gmail.com" href="mailto:nadji.soulaimana@gmail.com"><img src="./img/website/gmail.png"></a>
 							<a alt="07.66.13.29.28" href="tel:+33766132928"><img src="./img/website/phone.png"></a>
 						</div> -->
