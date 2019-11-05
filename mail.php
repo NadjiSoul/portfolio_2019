@@ -18,6 +18,9 @@
 		if(empty($_POST['email'])){
 			$msg .= '<span class="warning">Veuillez renseigner votre adresse mail.</span><br/>';
 		}
+		if(empty($_POST['tel'])){
+			$tel = 'Phone non renseigné';
+		}
 		else if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
 			$msg .= '<span class="warning">Votre email est considéré comme invalide</span><br/>';
 		}
@@ -38,7 +41,7 @@
 			$to_email = "dark9744@hotmail.fr";
 	   		$subject = $_POST['subject'];
 	   		$header = "From: $email";
-			$message = $firstname." ".$lastname.": ".$_POST['message'];
+			$message = $firstname." ".$lastname.": ".$_POST['message']." Telephone: ".$tel;
 
 			if(mail($to_email, $subject, $message, $header)){
 				$msg = '<span class="notice">Votre message a bien été envoyé</span>';
