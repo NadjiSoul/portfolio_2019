@@ -214,7 +214,7 @@ require_once('./includes/connect.php');
 							<input type="text" name="email" placeholder="Email..."><br/>
 							<input type="tel" name="tel" placeholder="Phone...">
 							<input type="text" name="subject" placeholder="Sujet"><br/>
-							<textarea name="message" placeholder="Votre message..." cols="23" rows="7"></textarea><br/>
+							<textarea name="message" placeholder="Votre message..." rows="6"></textarea><br/>
 							<input type="submit" name="submit" value="Envoyer">
 						</form>
 <!-- 						
