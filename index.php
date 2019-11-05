@@ -230,6 +230,15 @@
 				</div>
 			</div>
 		</section>
+		<section>
+			<form method="POST" action="mail.php">
+				<input type="text" name="firstname" placeholder="Prenom"><br/>
+				<input type="text" name="lastname" placeholder="Nom"><br/>
+				<input type="text" name="email" placeholder="Email"><br/>
+				<textarea name="message" placeholder="Votre message ..."></textarea><br/>
+				<input type="submit" name="Envoyer">
+			</form>
+		</section>
 	</main>
 	<script type="text/javascript" src="./js/script.js"></script>
 </body>

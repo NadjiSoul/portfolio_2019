@@ -459,15 +459,21 @@ section{
 	background-color: black;
 	height: 40px;
 	display: block;
+		text-align: center;
 	}
 	.navbar_open{
 		background-color:black;
 	}
-
 	.navbar a{
 		text-decoration: none;
 		color: white;
+		z-index: 1000;
+
 	}
+		.navbar a h2{
+			font-size: 15pt;
+			width: 20%;
+		}
 	.toggle_btn{
 		display: block;
     	height: 30px;
