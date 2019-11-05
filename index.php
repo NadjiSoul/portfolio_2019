@@ -204,12 +204,22 @@ require_once('./includes/connect.php');
 			<div class="res_contact">
 				<!-- Substitut Contact -->
 					<div class="res_cont">
-						<img src="./img/website/tof.png">
+						
+					<?php require_once('./mail.php'); ?>
+						<form method="POST">
+							<input type="text" name="firstname" placeholder="Prenom"><br/>
+							<input type="text" name="lastname" placeholder="Nom"><br/>
+							<input type="text" name="email" placeholder="Email"><br/>
+							<input type="text" name="subject" placeholder="Sujet"><br/>
+							<textarea name="message" placeholder="Votre message ..."></textarea><br/>
+							<input type="submit" name="submit" value="Envoyer">
+						</form>
+<!-- 						<img src="./img/website/tof.png">
 						<div>
 							<h3>CONTACT</h3>
 							<a alt="nadji.soulaimana@gmail.com" href="mailto:nadji.soulaimana@gmail.com"><img src="./img/website/gmail.png"></a>
 							<a alt="07.66.13.29.28" href="tel:+33766132928"><img src="./img/website/phone.png"></a>
-						</div>
+						</div> -->
 					</div>
 				<!-- RESEAUX SOCIAUX -->
 				<div id="network">
@@ -234,66 +244,6 @@ require_once('./includes/connect.php');
 					</div>
 				</div>
 			</div>
-		</section>
-		<section>
-		<?php
-
-	if(isset($_POST['submit'])){
-		$msg = '';
-		if(empty($_POST['firstname'])){
-			$msg .= 'Veuillez renseigner votre prénom.';
-		}
-		else if(strlen($_POST['firstname']) < 2){
-			$msg .= 'Votre prénom doit comporter au moins 2 caractères.';
-		}
-
-		if(empty($_POST['lastname'])){
-			$msg .= 'Veuillez renseigner votre nom.';
-		}
-		else if(strlen($_POST['lastname']) < 2){
-			$msg .= 'Votre nom doit comporter au moins 2 caractères.';
-		}
-		if(empty($_POST['email'])){
-			$msg .= 'Veuillez renseigner votre adresse mail';
-		}
-		else if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
-			$msg .= 'Votre email est considéré comme invalide';
-		}
-		if(empty($_POST['message'])){
-			$msg .= 'Veuillez écrire votre message.';
-		}
-		else if(strlen($_POST['message']) < 20){
-			$msg .= 'Votre message doit comporter au moins 20 caractères.';
-		}
-		if(empty($msg)){
-			$firstname = $_POST['firstname'];
-			$lastname = $_POST['lastname'];
-			$email = $_POST['email'];
-
-			$to_email = "dark9744@hotmail.fr";
-	   		$subject = $_POST['subject'];
-	   		$header = "From: $email";
-			$message = $firstname." ".$lastname.": ".$_POST['message'];
-
-			if(mail($to_email, $subject, $message, $header)){
-				$msg = 'Votre message a bien été envoyer à'.$to_email;
-
-			}
-			else{
-				$msg = 'Une erreur est survenue. Veuillez réessayer ultérieurement.';
-			}
-		}
-		echo $msg;
-	}
-	?>
-			<form method="POST">
-				<input type="text" name="firstname" placeholder="Prenom"><br/>
-				<input type="text" name="lastname" placeholder="Nom"><br/>
-				<input type="text" name="email" placeholder="Email"><br/>
-				<input type="text" name="subject" placeholder="Sujet"><br/>
-				<textarea name="message" placeholder="Votre message ..."></textarea><br/>
-				<input type="submit" name="submit" value="Envoyer">
-			</form>
 		</section>
 	</main>
 	<script type="text/javascript" src="./js/script.js"></script>

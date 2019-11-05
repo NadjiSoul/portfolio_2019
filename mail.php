@@ -3,29 +3,29 @@
 	if(isset($_POST['submit'])){
 		$msg = '';
 		if(empty($_POST['firstname'])){
-			$msg .= 'Veuillez renseigner votre prénom.';
+			$msg .= '<span class="warning">Veuillez renseigner votre prénom.</span>';
 		}
 		else if(strlen($_POST['firstname']) < 2){
-			$msg .= 'Votre prénom doit comporter au moins 2 caractères.';
+			$msg .= '<span class="warning">Votre prénom doit comporter au moins 2 caractères.</span>';
 		}
 
 		if(empty($_POST['lastname'])){
-			$msg .= 'Veuillez renseigner votre nom.';
+			$msg .= '<span class="warning">Veuillez renseigner votre nom.</span>';
 		}
 		else if(strlen($_POST['lastname']) < 2){
-			$msg .= 'Votre nom doit comporter au moins 2 caractères.';
+			$msg .= '<span class="warning">Votre nom doit comporter au moins 2 caractères.</span>';
 		}
 		if(empty($_POST['email'])){
-			$msg .= 'Veuillez renseigner votre adresse mail';
+			$msg .= '<span class="warning">Veuillez renseigner votre adresse mail.</span>';
 		}
 		else if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
-			$msg .= 'Votre email est considéré comme invalide';
+			$msg .= '<span class="warning">Votre email est considéré comme invalide</span>';
 		}
 		if(empty($_POST['message'])){
-			$msg .= 'Veuillez écrire votre message.';
+			$msg .= '<span class="warning">Veuillez écrire votre message.</span>';
 		}
 		else if(strlen($_POST['message']) < 20){
-			$msg .= 'Votre message doit comporter au moins 20 caractères.';
+			$msg .= '<span class="warning">Votre message doit comporter au moins 20 caractères.</span>';
 		}
 		if(empty($msg)){
 			$firstname = $_POST['firstname'];
@@ -38,13 +38,15 @@
 			$message = $firstname." ".$lastname.": ".$_POST['message'];
 
 			if(mail($to_email, $subject, $message, $header)){
-				$msg = 'Votre message a bien été envoyer à'.$to_email;
+				$msg = '<span class="notice">Votre message a bien été envoyer</span>';
 
 			}
 			else{
-				$msg = 'Une erreur est survenue. Veuillez réessayer ultérieurement.';
+				$msg = '<span class="error">Une erreur est survenue. Veuillez réessayer ultérieurement.</span>';
 			}
 		}
+
+		echo $msg;
 	}
 	   
 	 
