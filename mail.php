@@ -27,9 +27,27 @@
 		else if(strlen($_POST['message']) < 20){
 			$msg .= 'Votre message doit comporter au moins 20 caractères.';
 		}
-		
-		header('Location: index.php');
+		if(empty($msg)){
+			$firstname = $_POST['firstname'];
+			$lastname = $_POST['lastname'];
+			$email = $_POST['email'];
+
+			$to_email = "dark9744@hotmail.fr";
+	   		$subject = $_POST['subject'];
+	   		$header = "From: $email";
+			$message = $firstname." ".$lastname.": ".$_POST['message'];
+
+			if(mail($to_email, $subject, $message, $header)){
+				$msg = 'Votre message a bien été envoyer à'.$to_email;
+
+			}
+			else{
+				$msg = 'Une erreur est survenue. Veuillez réessayer ultérieurement.';
+			}
+		}
 	}
+
+	echo $msg;
 	   
 	 
 	   // if (mail($to_email, $subject, $body, $headers)) {

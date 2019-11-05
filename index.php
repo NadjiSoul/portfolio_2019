@@ -231,30 +231,6 @@
 			</div>
 		</section>
 		<section>
-			<?php 
-			if(isset($_POST['submit'])){
-
-				if(empty($msg)){
-					$firstname = $_POST['firstname'];
-					$lastname = $_POST['lastname'];
-					$email = $_POST['email'];
-
-					$to_email = "dark9744@hotmail.fr";
-			   		$subject = $_POST['subject'];
-			   		$header = "From: $email";
-					$message = $firstname." ".$lastname.": ".$_POST['message'];
-
-					if(mail($to_email, $subject, $message, $header)){
-						$msg = 'Votre message a bien été envoyer à'.$to_email;
-
-					}
-					else{
-						$msg = 'Une erreur est survenue. Veuillez réessayer ultérieurement.';
-					}
-				}
-				echo $msg;
-			}
-			;?>
 			<form method="POST" action="mail.php">
 				<input type="text" name="firstname" placeholder="Prenom"><br/>
 				<input type="text" name="lastname" placeholder="Nom"><br/>
