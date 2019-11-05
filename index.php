@@ -231,6 +231,7 @@
 			</div>
 		</section>
 		<section>
+			<?php echo $msg; ?>
 			<form method="POST" action="mail.php">
 				<input type="text" name="firstname" placeholder="Prenom"><br/>
 				<input type="text" name="lastname" placeholder="Nom"><br/>

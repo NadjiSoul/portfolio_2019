@@ -45,10 +45,8 @@
 				$msg = 'Une erreur est survenue. Veuillez réessayer ultérieurement.';
 			}
 		}
-	}
-
-	echo $msg;
-	   
+		header('Location: index.php/#contact');
+	}  
 	 
 	   // if (mail($to_email, $subject, $body, $headers)) {
 	   //    echo("Email successfully sent to $to_email...");
