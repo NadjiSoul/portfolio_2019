@@ -171,7 +171,9 @@ section{
 	#pres .reverse img{
 		position: absolute;
 		width: 20%;
-		margin-left: -22%;
+		left: 0;
+		margin-left: 260px;
+		margin-top: 25px;
 		border-left: none;
 	}
 	#pres .reverse div, #pres .reverse div p{
@@ -559,7 +561,13 @@ section{
 	#techno .opquast{
 		width: 95%;
 		margin-top: 5%;
+		flex-direction: column;
+		border-right: none;
+		border-bottom: 2px solid #FFF;
 	}
+		#techno .opquast img{
+			margin: auto;
+		}
 	#project article div{
 		width: 45%;
 		margin-bottom: 2.5%;
