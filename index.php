@@ -162,9 +162,10 @@
 					?>
 					<div class="proj">
 						<div class="proj_">
-						<a target="_blank" href="./files/<?php echo $s['ddl']; ?>">
-								<img title="" alt="Logo de projet : <?php echo $s['description'];?>" src="./img/project/<?php echo $s['url']; ?>">
-						</a>
+							<div class="view"><p>CLIQUER ICI POUR VOIR +</p></div>
+							<a target="_blank" href="./files/<?php echo $s['ddl']; ?>">
+									<img title="" alt="Logo de projet : <?php echo $s['description'];?>" src="./img/project/<?php echo $s['url']; ?>">
+							</a>
 						</div>
 						<div class="_proj">
 							<h3><?php echo $s['name']; ?></h3>
