@@ -35,10 +35,25 @@
 			$to_email = "dark9744@hotmail.fr";
 	   		$subject = $_POST['subject'];
 	   		$header = "From: $email";
-			$message = $firstname."<br/>".$lastname."<br/>".$_POST['message'];
+			$message = '
+			<html>
+				<head>
+					<title>Portfolio : Message</title>
+				</head>
+				<body>
+					<div>
+						<p> Prenom : '.$firstname.'</p>
+						<p> Nom : '.$lastname.'</p>
+						<p> Email : '.$email.'</p>
+						<p>'.$_POST['message'].'</p>
+					</div>
+				</body>
+			</html>';
+
+			$firstname."<br/>".$lastname."<br/>".$_POST['message'];
 
 			if(mail($to_email, $subject, $message, $header)){
-				echo 'Votre message a bien été envoyer à $to_email';
+				echo 'Votre message a bien été envoyé à '.$to_email;
 			}
 		}
 	}
