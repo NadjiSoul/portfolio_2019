@@ -1,4 +1,5 @@
 <?php require_once('./includes/connect.php'); ?>
+<?php require_once('./mail.php');?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
@@ -232,7 +233,7 @@
 		</section>
 		<section>
 			<?php echo $msg; ?>
-			<form method="POST" action="mail.php">
+			<form method="POST">
 				<input type="text" name="firstname" placeholder="Prenom"><br/>
 				<input type="text" name="lastname" placeholder="Nom"><br/>
 				<input type="text" name="email" placeholder="Email"><br/>
