@@ -504,6 +504,8 @@ section{
 	.navbar a{
 		text-decoration: none;
 		color: white;
+		position: fixed;
+		left: 15px;
 		z-index: 1000;
 
 	}
@@ -518,7 +520,7 @@ section{
     	position: fixed;
     	cursor:pointer;
     	z-index: 1;
-    	right: calc(8% - 30px);
+    	right: calc(10% - 30px);
 	}
 	.toggle_btn span{
     	height: 3px;
