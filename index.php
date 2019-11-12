@@ -89,35 +89,44 @@ require_once('./includes/connect.php');
 			<article>
 				<div class="tec">
 					<div>
-						<img title="HTML" alt="LOGO HTML" src="./img/techno/html.png">
+						<img title="HTML : HyperText Markup Language" alt="LOGO HTML" src="./img/techno/html.png">
 					</div>
 					<div>
-						<img title="CSS" alt="LOGO CSS" src="./img/techno/css.png">
+						<img title="CSS : Cascading Style Sheets" alt="LOGO CSS" src="./img/techno/css.png">
 					</div>
 				</div>
 
 				<div class="tec">
 					<div>
-						<img title="PHP" alt="LOGO PHP" src="./img/techno/php.png">
+						<img title="PHP : Hypertext Preprocessor" alt="LOGO PHP" src="./img/techno/php.png">
 					</div>
 					<div>
-						<img title="JS" alt="LOGO JS" src="./img/techno/js.png">
-					</div>
-				</div>
-				<div class="tec">
-					<div>
-						<!-- <img title="WORDPRESS" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png"> -->
-					</div>
-					<div>
-						<!-- <img title="SYMFONY" alt="LOGO SYMFONY" src="./img/techno/php.png"> -->
+						<img title="JS : JavaScript" alt="LOGO JS" src="./img/techno/js.png">
 					</div>
 				</div>
 				<div class="tec">
 					<div>
-						<img title="SQL" alt="LOGO SQL" src="./img/techno/sql.png">
+						<img title="WP : WordPress" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png">
 					</div>
 					<div>
-						<img title="WORDPRESS" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png">
+						<img title="SF : SymFony" alt="LOGO SYMFONY" src="./img/techno/symfony.png">
+					</div>
+				</div>
+				<div class="tec">
+					<div>
+						<img title="SQL : Structured Query Language" alt="LOGO SQL" src="./img/techno/sql.png">
+					</div>
+				<!-- 	<div>
+						<img title="SHELL" alt="LOGO SHELL" src="./img/techno/shell.png">
+					</div> -->
+				</div>
+				
+				<div class="tec">
+				<!-- 	<div>
+						<img title="SQL : Structured Query Language" alt="LOGO SQL" src="./img/techno/sql.png">
+					</div> -->
+					<div>
+						<img title="SHELL" alt="LOGO SHELL" src="./img/techno/shell.png">
 					</div>
 				</div>
 			</article>
