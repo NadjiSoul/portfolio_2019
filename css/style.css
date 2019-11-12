@@ -659,14 +659,18 @@ section{
 		text-align: center;
 	}
 		#network div{
-			width: 85%;
+			display: flex;
+			border:2px solid red;
+			justify-content: center;
 		}
 			#network div img{
 				width: 50px;
 			}
-
+			#network figure{
+				margin: 0 0.5%;
+			}
 			#network div figcaption{
-				padding: 17px 50px;
+				display: none;
 			}
 
 }

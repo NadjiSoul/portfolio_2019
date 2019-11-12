@@ -90,58 +90,34 @@ require_once('./includes/connect.php');
 				<div class="tec">
 					<div>
 						<img title="HTML" alt="LOGO HTML" src="./img/techno/html.png">
-						<div class="back_"><span>90%</span>
-							<div class="back html"></div>
-						</div>
 					</div>
 					<div>
 						<img title="CSS" alt="LOGO CSS" src="./img/techno/css.png">
-						<div class="back_"><span>70%</span>
-							<div class="back css"></div>
-						</div>
 					</div>
 				</div>
 
 				<div class="tec">
 					<div>
 						<img title="PHP" alt="LOGO PHP" src="./img/techno/php.png">
-						<div class="back_"><span>60%</span>
-							<div class="back php"></div>
-						</div>
 					</div>
 					<div>
 						<img title="JS" alt="LOGO JS" src="./img/techno/js.png">
-						<div class="back_"><span>20%</span>
-							<div class="back js"></div>
-						</div>
 					</div>
 				</div>
 				<div class="tec">
 					<div>
-						<img title="WORDPRESS" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png">
-						<div class="back_"><span>50%</span>
-							<div class="back wp"></div>
-						</div>
+						<!-- <img title="WORDPRESS" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png"> -->
 					</div>
 					<div>
-						<img title="SYMFONY" alt="LOGO SYMFONY" src="./img/techno/php.png">
-						<div class="back_"><span>10%</span>
-							<div class="back php"></div>
-						</div>
+						<!-- <img title="SYMFONY" alt="LOGO SYMFONY" src="./img/techno/php.png"> -->
 					</div>
 				</div>
 				<div class="tec">
 					<div>
 						<img title="SQL" alt="LOGO SQL" src="./img/techno/sql.png">
-						<div class="back_"><span>60%</span>
-							<div class="back sql"></div>
-						</div>
 					</div>
 					<div>
 						<img title="WORDPRESS" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png">
-						<div class="back_"><span>50%</span>
-							<div class="back wp"></div>
-						</div>
 					</div>
 				</div>
 			</article>
