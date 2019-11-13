@@ -250,7 +250,7 @@ section{
 		width: 60%;
 		display: flex;
 	}
-	.opquast img{
+	.opquast a img{
 		margin-left: 0.5%;
 	}
 	.opquast div{

@@ -120,7 +120,7 @@ require_once('./includes/connect.php');
 						<img title="SHELL" alt="LOGO SHELL" src="./img/techno/shell.png">
 					</div> -->
 				</div>
-				
+
 				<div class="tec">
 				<!-- 	<div>
 						<img title="SQL : Structured Query Language" alt="LOGO SQL" src="./img/techno/sql.png">
@@ -136,6 +136,7 @@ require_once('./includes/connect.php');
 					<p>Des bonnes pratiques utilisées par la communauté des meilleurs professionnels du secteur</p>
 					<p>Une certification de compétences officielle, reconnue à l’inventaire national des certifications professionnelle et déjà suivie par des milliers de certifiés</p>
 					<p>Un écosystème d’agences, d’écoles, de centres de formation et d’entreprises qui appliquent les bonnes pratiques et améliorent le Web.</p>
+					<a href="https://directory.opquast.com/fr/certificat/ZLVYJ5/">Lien vers Opquast (Vérification)</a>
 				</div>
 			</div>
 		</section>
