@@ -55,14 +55,14 @@ require_once('./includes/connect.php');
 				<div class="verse_">
 					<div>	
 						<p>
-							Je m'appelle Soulaimana Nadji, j'ai 22 ans et originaire de l'Île de la Réunion.
+							Je m'appelle Soulaimana Nadji, j'ai 22 ans et je suis originaire de l'Île de la Réunion.
 						</p>
 						<p>
-							Ayant toujours été attiré par l'informatique, je suis actuellement en réorientation professionnelle et c'est donc tout naturellement que je me suis tourné vers le developpement web.
-							Ainsi, je me forme actuellement et recherche un stage pour valider mon titre professionnel de niveau BAC+2 reconnu par la RNCP.
+							Ayant toujours été attiré par l'informatique, je suis actuellement en réorientation professionnelle et c'est donc tout naturellement que je me suis tourné vers le développement web.
+							Ainsi, je me forme actuellement chez Simplon et recherche un stage pour valider le titre professionnel de niveau BAC+2 reconnu par le RNCP.
 						</p>
 					</div>
-					<a class="button_" target="_blank" href="./files/cv_nsoulaimana.pdf">Telecharger mon CV</a>
+					<a class="button_" target="_blank" href="./files/cv_nsoulaimana.pdf">Télécharger mon CV</a>
 				</div>
 				<img src="./img/website/tof.png"> <!-- snap.jpg -->
 			</article>
@@ -76,7 +76,7 @@ require_once('./includes/connect.php');
 
 					<h3> Formation Dev Web : Une journée type ?</h3>
 					<p>
-						La journée commence généralement par une veille informatique.
+						La journée commence généralement par une veille informatique qui est préparé en amont en monôme ou bînome.
 						Puis, continue sur de la théorie
 						L'après-midi, on se focalise généralement sur des projets.
 					</p>
