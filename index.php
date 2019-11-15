@@ -77,7 +77,7 @@ require_once('./includes/connect.php');
 					<h3> Formation Dev Web : Une journée type ?</h3>
 					<p>
 						La journée commence généralement par une veille informatique qui est préparé en amont en monôme ou bînome.
-						Puis, continue sur de la théorie
+						Par la suite, on continue sur de la théorie.
 						L'après-midi, on se focalise généralement sur des projets.
 					</p>
 				</div>
@@ -90,43 +90,48 @@ require_once('./includes/connect.php');
 				<div class="tec">
 					<div>
 						<img title="HTML : HyperText Markup Language" alt="LOGO HTML" src="./img/techno/html.png">
+						<p>HTML : HyperText Markup Language</p>
 					</div>
 					<div>
 						<img title="CSS : Cascading Style Sheets" alt="LOGO CSS" src="./img/techno/css.png">
+						<p>CSS : Cascading StyleSheets</p>
+					</div>
+					<div>
+						<img title="JS : JavaScript" alt="LOGO JS" src="./img/techno/js.png">
+						<p>JavaScript</p>
 					</div>
 				</div>
 
 				<div class="tec">
 					<div>
 						<img title="PHP : Hypertext Preprocessor" alt="LOGO PHP" src="./img/techno/php.png">
+						<p>PHP : Hypertext Preprocessor</p>
 					</div>
 					<div>
-						<img title="JS : JavaScript" alt="LOGO JS" src="./img/techno/js.png">
+						<img title="SQL : Structured Query Language" alt="LOGO SQL" src="./img/techno/sql.png">
+						<p>SQL : Structured Query Language</p>
+					</div>
+					<div>
+						<img title="SF : SymFony" alt="LOGO SYMFONY" src="./img/techno/symfony.png">
+						<p>SF : SymFony</p>
 					</div>
 				</div>
 				<div class="tec">
 					<div>
 						<img title="WP : WordPress" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png">
+						<p>WP : WordPress</p>
 					</div>
 					<div>
-						<img title="SF : SymFony" alt="LOGO SYMFONY" src="./img/techno/symfony.png">
+						<img title="APACHE" alt="LOGO APACHE" src="./img/techno/apache.png">
+						<p>Apache</p>
 					</div>
-				</div>
-				<div class="tec">
 					<div>
-						<img title="SQL : Structured Query Language" alt="LOGO SQL" src="./img/techno/sql.png">
+						<img title="LINUX (Terminal)" alt="LOGO LINUX" src="./img/techno/linux.png">
+						<p>Linux (Terminal)</p>
 					</div>
-				<!-- 	<div>
-						<img title="SHELL" alt="LOGO SHELL" src="./img/techno/shell.png">
-					</div> -->
-				</div>
-
-				<div class="tec">
-				<!-- 	<div>
-						<img title="SQL : Structured Query Language" alt="LOGO SQL" src="./img/techno/sql.png">
-					</div> -->
 					<div>
-						<img title="SHELL" alt="LOGO SHELL" src="./img/techno/shell.png">
+						<img title="GITHUB" alt="LOGO GITHUB" src="./img/techno/github.png">
+						<p>Github</p>
 					</div>
 				</div>
 			</article>
