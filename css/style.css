@@ -597,9 +597,13 @@ section{
 		width: 50%;
 		margin: auto;
 	}
-	#techno .tec{
-		flex-direction: row;
+	#techno .cet{
+		display: flex;
+		justify-content: space-around;
 	}
+		#techno .cet img{
+			width: 50px;
+		}
 	#techno .back_{
 		padding: 2%;
 	}
@@ -632,6 +636,7 @@ section{
 		width: 85%;
 	}
 	#project{
+		margin-top: 150px;
 		height: 100vh;
 	}
 
