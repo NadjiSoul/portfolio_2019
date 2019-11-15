@@ -96,12 +96,7 @@ require_once('./includes/connect.php');
 						<img title="CSS : Cascading Style Sheets" alt="LOGO CSS" src="./img/techno/css.png">
 						<p>CSS : Cascading StyleSheets</p>
 					</div>
-					<div>
-						<img title="JS : JavaScript" alt="LOGO JS" src="./img/techno/js.png">
-						<p>JavaScript</p>
-					</div>
 				</div>
-
 				<div class="tec">
 					<div>
 						<img title="PHP : Hypertext Preprocessor" alt="LOGO PHP" src="./img/techno/php.png">
@@ -111,27 +106,35 @@ require_once('./includes/connect.php');
 						<img title="SQL : Structured Query Language" alt="LOGO SQL" src="./img/techno/sql.png">
 						<p>SQL : Structured Query Language</p>
 					</div>
-					<div>
-						<img title="SF : SymFony" alt="LOGO SYMFONY" src="./img/techno/symfony.png">
-						<p>SF : SymFony</p>
-					</div>
 				</div>
 				<div class="tec">
-					<div>
-						<img title="WP : WordPress" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png">
-						<p>WP : WordPress</p>
-					</div>
-					<div>
-						<img title="APACHE" alt="LOGO APACHE" src="./img/techno/apache.png">
-						<p>Apache</p>
-					</div>
 					<div>
 						<img title="LINUX (Terminal)" alt="LOGO LINUX" src="./img/techno/linux.png">
 						<p>Linux (Terminal)</p>
 					</div>
 					<div>
+						<img title="WP : WordPress" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png">
+						<p>WP : WordPress</p>
+					</div>
+				</div>
+				<div class="tec">
+					<div>
+						<img title="JS : JavaScript" alt="LOGO JS" src="./img/techno/js.png">
+						<p>JavaScript</p>
+					</div>
+					<div>
+						<img title="APACHE" alt="LOGO APACHE" src="./img/techno/apache.png">
+						<p>Apache</p>
+					</div>
+				</div>
+				<div class="tec">
+					<div>
 						<img title="GITHUB" alt="LOGO GITHUB" src="./img/techno/github.png">
 						<p>Github</p>
+					</div>
+					<div>
+						<img title="SF : SymFony" alt="LOGO SYMFONY" src="./img/techno/symfony.png">
+						<p>SF : SymFony</p>
 					</div>
 				</div>
 			</article>
@@ -177,7 +180,7 @@ require_once('./includes/connect.php');
 		<section id="propos">
 			<h2 class="h">A PROPOS</h2>
 			<article>
-				<p></p>
+				<p><!-- Je m'appelle Soulaimana Nadji, j'ai 22 ans et originaire de l'Île de la Réunion. Ayant toujours été attiré par l'informatique, je suis actuellement en réorientation professionnelle et c'est donc tout naturellement que je me suis tourné vers le developpement web. Ainsi, je me forme actuellement et recherche un stage pour valider mon titre professionnel de niveau BAC+2 reconnu par la RNCP. --></p>
 			</article>
 			<article>
 				<h2>PASSIONS</h2>
