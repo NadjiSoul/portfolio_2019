@@ -59,7 +59,7 @@ require_once('./includes/connect.php');
 						</p>
 						<p>
 							Ayant toujours été attiré par l'informatique, je suis actuellement en réorientation professionnelle et c'est donc tout naturellement que je me suis tourné vers le développement web.
-							Ainsi, je me forme actuellement chez Simplon et recherche un stage pour valider le titre professionnel de niveau BAC+2 reconnu par le RNCP.
+							Ainsi, je me forme actuellement chez Simplon et recherche un stage pour valider un titre professionnel de niveau BAC+2 reconnu par le RNCP.
 						</p>
 					</div>
 					<a class="button_" target="_blank" href="./files/cv_nsoulaimana.pdf">Télécharger mon CV</a>
@@ -77,7 +77,7 @@ require_once('./includes/connect.php');
 					<h3> Formation Dev Web : Une journée type ?</h3>
 					<p>
 						La journée commence généralement par une veille informatique qui est préparé en amont en monôme ou bînome.
-						Par la suite, on continue sur de la théorie.
+						Par la suite, on continue sur de la théorie et donc, de découvrir de nouvelles notions.
 						L'après-midi, on se focalise généralement sur des projets.
 					</p>
 				</div>
@@ -177,7 +177,7 @@ require_once('./includes/connect.php');
 		<section id="propos">
 			<h2 class="h">A PROPOS</h2>
 			<article>
-				<p>Je m'appelle Soulaimana Nadji, j'ai 22 ans et originaire de l'Île de la Réunion. Ayant toujours été attiré par l'informatique, je suis actuellement en réorientation professionnelle et c'est donc tout naturellement que je me suis tourné vers le developpement web. Ainsi, je me forme actuellement et recherche un stage pour valider mon titre professionnel de niveau BAC+2 reconnu par la RNCP.</p>
+				<p></p>
 			</article>
 			<article>
 				<h2>PASSIONS</h2>
