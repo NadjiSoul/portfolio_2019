@@ -127,7 +127,7 @@ require_once('./includes/connect.php');
 						<p>Apache</p>
 					</div>
 				</div>
-				<div class="tec">
+				<div class="tec cet">
 					<div>
 						<img title="GITHUB" alt="LOGO GITHUB" src="./img/techno/github.png">
 						<p>Github</p>

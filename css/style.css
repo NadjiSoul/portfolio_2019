@@ -597,6 +597,9 @@ section{
 		width: 50%;
 		margin: auto;
 	}
+	#techno .tec{
+		flex-direction: row;
+	}
 	#techno .back_{
 		padding: 2%;
 	}
