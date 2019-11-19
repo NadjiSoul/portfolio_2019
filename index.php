@@ -9,7 +9,7 @@ require_once('./includes/connect.php');
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio :: NSoulaimana</title>
+	<title>Nadji Soulaimana Portfolio</title>
 	<link rel="icon" type="image/png" href="./img/website/logo.png" />
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Indie+Flower&display=swap&subset=latin-ext" rel="stylesheet">
@@ -77,7 +77,7 @@ require_once('./includes/connect.php');
 					<h3> Formation Dev Web : Une journée type ?</h3>
 					<p>
 						La journée commence généralement par une veille informatique qui est préparé en amont en monôme ou bînome.
-						Par la suite, on continue sur de la théorie et donc, de découvrir de nouvelles notions.
+						Par la suite, on continue sur de la théorie.
 						L'après-midi, on se focalise généralement sur des projets.
 					</p>
 				</div>
@@ -96,7 +96,12 @@ require_once('./includes/connect.php');
 						<img title="CSS : Cascading Style Sheets" alt="LOGO CSS" src="./img/techno/css.png">
 						<p>CSS : Cascading StyleSheets</p>
 					</div>
+					<div>
+						<img title="JS : JavaScript" alt="LOGO JS" src="./img/techno/js.png">
+						<p>JavaScript</p>
+					</div>
 				</div>
+
 				<div class="tec">
 					<div>
 						<img title="PHP : Hypertext Preprocessor" alt="LOGO PHP" src="./img/techno/php.png">
@@ -106,35 +111,27 @@ require_once('./includes/connect.php');
 						<img title="SQL : Structured Query Language" alt="LOGO SQL" src="./img/techno/sql.png">
 						<p>SQL : Structured Query Language</p>
 					</div>
+					<div>
+						<img title="SF : SymFony" alt="LOGO SYMFONY" src="./img/techno/symfony.png">
+						<p>SF : SymFony</p>
+					</div>
 				</div>
 				<div class="tec">
-					<div>
-						<img title="LINUX (Terminal)" alt="LOGO LINUX" src="./img/techno/linux.png">
-						<p>Linux (Terminal)</p>
-					</div>
 					<div>
 						<img title="WP : WordPress" alt="LOGO WORDPRESS" src="./img/techno/wordpress.png">
 						<p>WP : WordPress</p>
-					</div>
-				</div>
-				<div class="tec">
-					<div>
-						<img title="JS : JavaScript" alt="LOGO JS" src="./img/techno/js.png">
-						<p>JavaScript</p>
 					</div>
 					<div>
 						<img title="APACHE" alt="LOGO APACHE" src="./img/techno/apache.png">
 						<p>Apache</p>
 					</div>
-				</div>
-				<div class="tec cet">
+					<div>
+						<img title="LINUX (Terminal)" alt="LOGO LINUX" src="./img/techno/linux.png">
+						<p>Linux (Terminal)</p>
+					</div>
 					<div>
 						<img title="GITHUB" alt="LOGO GITHUB" src="./img/techno/github.png">
 						<p>Github</p>
-					</div>
-					<div>
-						<img title="SF : SymFony" alt="LOGO SYMFONY" src="./img/techno/symfony.png">
-						<p>SF : SymFony</p>
 					</div>
 				</div>
 			</article>

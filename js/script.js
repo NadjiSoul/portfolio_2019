@@ -22,6 +22,7 @@ option_a.onclick = function(){
 	// 	document.getElementById('contact_res').style.display = 'none';
 	// }
 }
+// getElementByClassName
 
 var option_b = document.querySelector('.option_b');
 option_b.onclick = function(){
