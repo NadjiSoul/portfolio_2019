@@ -6,7 +6,7 @@ require_once('../includes/connect.php');
 <?php
     	if(isset($_POST['login'])){
     		$admin = $_POST['admin'];
-            $pass = $_POST['pass'];
+            $pass = sha1($_POST['pass']);
 
             $sql = "SELECT * FROM admin WHERE (username = '$admin' OR email = '$admin') AND password = '$pass'";
             $select = mysqli_query($cnx, $sql);
