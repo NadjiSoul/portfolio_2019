@@ -184,7 +184,7 @@ require_once('./includes/connect.php');
 				<h3>DESSIN</h3>
 				<div>
 					<a href="./img/about_me/glav.jpg" target="_blank"><img src="./img/about_me/glav.jpg"></a>
-					<a href="./img/about_me/mizu.jpg" target="_blank"><img src="./img/about_me/glav.jpg"></a>
+					<a href="./img/about_me/mizu.jpg" target="_blank"><img src="./img/about_me/mizu.jpg"></a>
 <!--					<a href="./img/about_me/glav.jpg" target="_blank"><img src="./img/about_me/glav.jpg"></a>
 					<a href="./img/about_me/glav.jpg" target="_blank"><img src="./img/about_me/glav.jpg"></a> -->
 				</div>
