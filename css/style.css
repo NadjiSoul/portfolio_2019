@@ -127,8 +127,7 @@ nav{
 /* Section */
 section{
 	font-family: 'Poiret One', cursive; /* Excellent */
-	font-weight: bold;
-	font-size: 1vw;
+	font-size: 11pt;
 	width: 85%;
 	margin-left: 15%;
 	height: 100vh;
@@ -252,7 +251,7 @@ section{
 		border-right: 2px solid #FFF;
 		border-radius: 4px;
 		margin: 2% auto;
-		width: 60%;
+		width: 65%;
 		display: flex;
 	}
 	.opquast a img{
