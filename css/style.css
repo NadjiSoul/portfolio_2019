@@ -6,7 +6,8 @@
 	text-decoration: none;
 	list-style: none;
 	scroll-behavior: smooth;
-	font-family: 'Cinzel', serif;
+	letter-spacing: 1px;
+
 }
 .h{
 	display: none;
@@ -20,6 +21,7 @@ html::-webkit-scrollbar {
 }
 /* Header : Background */
 header{
+	font-family: 'Cinzel', serif;
 	position: sticky;
 	width: 85%;
 	margin-left: 15%;
@@ -72,7 +74,8 @@ header{
 	}
 	
 /* Nav */
-nav{
+nav{	
+	font-family: 'Cinzel', serif;
 	background-color: #040404;
 	position: fixed;
 	z-index: 1000;
@@ -123,6 +126,8 @@ nav{
 	}
 /* Section */
 section{
+	font-family: 'Poiret One', cursive; /* Excellent */
+	font-weight: bold;
 	font-size: 1vw;
 	width: 85%;
 	margin-left: 15%;
@@ -442,6 +447,13 @@ section{
 				background-color: #183152;
 				color: #FFF;
 			}
+		.coord{
+			margin-left: -12%;
+			width: 60%;
+			padding: 30px;
+			text-align: center;
+			border: 2px solid #FFF;
+		}
 
 
 
@@ -665,12 +677,17 @@ section{
 		margin-top: 120px;
 		width: 100%;
 		text-align: center;
+		display: flex;
+		flex-direction: column-reverse;
 	}
 		#network div{
+			margin: 1% auto;
 			display: flex;
-			border:2px solid red;
 			justify-content: center;
 		}
+			#network h2{
+				display: none;
+			}
 			#network div img{
 				width: 50px;
 			}
@@ -680,5 +697,13 @@ section{
 			#network div figcaption{
 				display: none;
 			}
+		.coord{
+			padding: 10px 0;
+			margin: auto;
+			width: 80%;
+			display: flex;
+			flex-direction: column;
+
+		}
 
 }

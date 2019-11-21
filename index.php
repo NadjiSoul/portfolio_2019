@@ -13,6 +13,11 @@ require_once('./includes/connect.php');
 	<link rel="icon" type="image/png" href="./img/website/logo.png" />
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Indie+Flower&display=swap&subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel|Merienda|Monda|Neucha|Poiret+One|Righteous|Shadows+Into+Light+Two|Special+Elite|Sulphur+Point&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Lexend+Zetta&display=swap" rel="stylesheet">
+
+
+
 
 </head>
 <body>
@@ -235,6 +240,11 @@ require_once('./includes/connect.php');
 							<a target="_blank" href=""><img src="./img/social_network/twitter.png"></a>						
 							<a target="_blank" href=""><figcaption>Twitter</figcaption></a>
 						</figure>
+					</div>
+					<div class="coord">
+						<h2>Coordonnées</h2>
+						<a href="mailto:nadji.soulaimana@gmail.com"><p>mail : nadji.soulaimana@gmail.com</p></a>
+						<a href="tel:+33766132928"><p>Tel: 07.66.13.29.28</p></a>
 					</div>
 				</div>
 			</div>
