@@ -243,8 +243,8 @@ require_once('./includes/connect.php');
 					</div>
 					<div class="coord">
 						<h2>Coordonnées</h2>
-						<a href="mailto:nadji.soulaimana@gmail.com"><p>mail : nadji.soulaimana@gmail.com</p></a>
-						<a href="tel:+33766132928"><p>Tel: 07.66.13.29.28</p></a>
+						<p>Mail : <a href="mailto:nadji.soulaimana@gmail.com">nadji.soulaimana@gmail.com</a></p>
+						<p><a href="tel:+33766132928">Tel: 07.66.13.29.28</a></p>
 					</div>
 				</div>
 			</div>
